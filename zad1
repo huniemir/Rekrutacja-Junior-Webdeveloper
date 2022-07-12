@@ -1,0 +1,13 @@
+
+<div id=”idik1” class=”klasa1 klasa2”>lorem</div>
+<input name=”pole1”></input>
+<div id=”idik1” class=”klasa3”>ipsum</div>
+<div id=”idik2” class=”klasa4” class=”klasa5”>dolor amet</div>
+<p>tekst</br>akapitu<p>zagnieżdzony P</p></p>
+
+- w atrybutach powinny być stosowane znaki "" zamiast ””
+- input nie powinien się kończyć znacznikiem zamykającym </input>, wypadałoby również określić atrybut type
+- nie powinno być dwóch znaczników o tym samym id (idik1)
+- zamiast używać dwa razy atrybut "class", dla określenia dwóch klas (klasa4 i klasa5), należy użyć go raz, w następujący sposób: class="klasa4 klasa5"
+- nie powinno się zagnieżdżać w znaczniku <p> innego znacznika <p>
+- zamiast znacznika </br>, należy używać <br>
